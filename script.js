@@ -3,7 +3,7 @@ let user =  {
     age: 32,
     location: "USA",
     "max height": "180cm",
-    "second name": "Fraud"
+    "second name": "Fraud",
 }
 
 // Las claves son strings aunque no se escriban como tal
