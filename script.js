@@ -1,15 +1,13 @@
-const person = {
-    name: {
-        first: "John",
-        last: "Smith",
-    },
-    age: 31,
-}
+const persona = {
+  name: {
+    first: "Ana",
+    last: "Martínez"
+  }
+};
 
-person.eyes = "brown";
-person["height"] = "181cm";
-person.sayHi = function () {
-    console.log("Hola, hola, hey, hola");
-}
+// Añade una propiedad nueva llamada "hobby" con el valor "pintar" al objeto anterior, usando una variable para el nombre de la propiedad.
+const ans = "hobby";
 
-person.sayHi();
+persona[ans] = "pintar";
+
+console.log(persona.hobby);
