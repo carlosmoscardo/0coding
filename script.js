@@ -1,8 +1,8 @@
-let car = {
-    brand: "Toyota",
-    year: 2020,
+// Crea un objeto person con propiedades name: "Alice" y age: 25. Usa in para comprobar si existe la propiedad "name" y si existe "surname".
+
+const person = {
+    name: "Alice",
+    age: 25,
 }
 
-for (let key in car) {
-    console.log(`${key} => ${car[key]}`);
-}
+console.log("name" in person, "surname" in person);
