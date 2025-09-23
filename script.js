@@ -1,8 +1,8 @@
-let firstName = "María";
-
-let user = {
-    firstName,
-    age: 30,
+let obj = {
+    for: 1,
+    let: 1,
+    while: 1,
+    return: 1,
 }
 
-console.log(user.firstName);
+console.log(obj.for + obj.let + obj.while + obj.return);
