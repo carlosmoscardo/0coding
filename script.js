@@ -1,16 +1,7 @@
-let fruit = prompt("Which food do you want to buy?", "apple");
-let bag = {
-    [fruit]: 5,
-    [fruit + "Computers"]: 1
-}
-console.log(bag.apple); // does work
-console.log(bag["apple"]); // does work
-console.log(bag.appleComputers); // does work
-console.log(bag["appleComputers"]); // does work
+// Crea un objeto settings y añade una propiedad con nombre "dark mode" con valor true usando corchetes.
 
-let newFruit = "banana";
-let newBag = {
-    newFruit: 10, // does not work
-    [newFruit]: 10, // does work
+let settings = {
+
 }
-console.log(newBag.banana);
+
+settings["dark mode"] = true;
