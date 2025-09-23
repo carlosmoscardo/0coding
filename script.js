@@ -1,9 +1,6 @@
-let user =  {
-    name: "John",
-    age: 32,
-    location: "USA",
-    "max height": "180cm",
-    "second name": "Fraud",
+let car = {
+    brand: "Toyota",
+    year: 2020,
 }
 
-// Las claves son strings aunque no se escriban como tal
+console.log(car.brand, car.year);
