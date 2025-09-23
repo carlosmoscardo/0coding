@@ -1,7 +1,8 @@
 let user = {
-    age: 32,
+    name: "John",
+    "likes birds": true,
 }
 
-user.name = "John";
-
-delete user.age;
+console.log(user.name); // works
+console.log(user.likes birds); // doesn't work
+console.log(user["likes birds"]); // works
