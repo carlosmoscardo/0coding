@@ -6,8 +6,10 @@ const person = {
     age: 31,
 }
 
-const xyz = "age";
+person.eyes = "brown";
+person["height"] = "181cm";
+person.sayHi = function () {
+    console.log("Hola, hola, hey, hola");
+}
 
-console.log(person.name.first);
-console.log(person["name"]["first"]);
-console.log(person[xyz]);
+person.sayHi();
