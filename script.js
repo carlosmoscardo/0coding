@@ -1,7 +1,10 @@
-// Crea un objeto settings y añade una propiedad con nombre "dark mode" con valor true usando corchetes.
+// Crea un objeto car con una propiedad cuyo nombre venga de la variable feature = "hasAC" y valor true.
 
-let settings = {
+let feature = "hasAC";
 
+let car = {
+    [feature]: true,
 }
 
-settings["dark mode"] = true;
+console.log(car.hasAC); // works
+console.log(car["hasAC"]); // works
