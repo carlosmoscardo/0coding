@@ -1,11 +1,13 @@
-// Crea un objeto numbers con las claves "2", "1" y "3", en ese orden, con valores "two", "one", "three". Recorre el objeto con for..in y observa el orden real.
+// Create an empty object user.
+// Add the property name with the value John.
+// Add the property surname with the value Smith.
+// Change the value of the name to Pete.
+// Remove the property name from the object.
 
-const numbers = {
-    "2": "two",
-    "1": "one",
-    "3": "three",
-}
+let user = {
+    name: "John",
+    surname: "Smith",
+};
 
-for (let key in numbers) {
-    console.log(key);
-}
+user.name = "Pete";
+delete user.name;
