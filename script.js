@@ -1,17 +1,18 @@
-let menu = {
-    width: 200,
-    height: 300,
-    title: "My menu",
-}
-
-function multiplyNumeric(obj) {
-    for (let key in obj) {
-        if (typeof obj[key] === "number") {
-            obj[key] *= 2;
-        }
+const test = {
+    name: "John",
+    age: 23,
+    arr: [1, 2, 3],
+    saludar() {
+        console.log("Hey!");
+    },
+    despedir: function () {
+        console.log("Bye!");
+    },
+    test(number1, number2) {
+        console.log(number1 + number2);
     }
 }
 
-multiplyNumeric(menu);
-
-
+test.despedir();
+test.saludar();
+test.test(1, 2);
