@@ -1,10 +1,8 @@
-let user = {
-    firstName: "John",
-    secondName: "Bret",
-    age: 30,
+let car = {
+    brand: "Toyota",
+    year: 2020,
 }
 
-for (let key in user) {
-    console.log(key);
-    console.log(user[key]);
+for (let key in car) {
+    console.log(`${key} => ${car[key]}`);
 }
