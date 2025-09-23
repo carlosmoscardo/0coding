@@ -1,8 +1,11 @@
-let obj = {
-    for: 1,
-    let: 1,
-    while: 1,
-    return: 1,
+let user = {
+    age: 40,
 }
 
-console.log(obj.for + obj.let + obj.while + obj.return);
+console.log(user[age]); // not working
+
+let obj = {
+    0: "test",
+}
+
+console.log(obj[0]); // working
