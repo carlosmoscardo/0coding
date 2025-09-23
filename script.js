@@ -1,23 +1,18 @@
-// Write the function isEmpty(obj) which returns true if the object has no properties, false otherwise.
-
-// let schedule = {};
-// alert( isEmpty(schedule) ); // true
-// schedule["8:30"] = "get up";
-// alert( isEmpty(schedule) ); // false
-
-function isEmpty(obj) {
-    let i = 0;
-    for (let key in obj) {
-        if (key in obj === true) {
-            console.log(false);
-            i++;
-        } 
-    }
-    if (i === 0) {
-        console.log(true);
-    }
+let salaries = {
+    John: 100,
+    Ann: 160,
+    Pete: 130,
 }
 
-let test = {};
+let sum = 0;
 
-isEmpty(test);
+for (let key in salaries) {
+    sum += salaries[key];
+}
+
+/* 
+Write the code to sum all salaries and store in the variable sum. Should be 390 in the example above.
+If salaries is empty, then the result must be 0.
+*/
+
+
