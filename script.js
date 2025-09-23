@@ -1,10 +1,12 @@
-// Crea un objeto phone = { brand: "Samsung", model: "S22" } y recórrelo con un for..in mostrando cada clave y su valor.
-
-const phone = {
-    brand: "Samsung",
-    model: "S22",
+let countryCodes = {
+    49: "Germany",
+    41: "Switzerland",
+    44: "UK",
+    1: "USA",
 }
 
-for (let key in phone) {
-    console.log(`${key}: ${phone[key]}`);
+for (let key in countryCodes) {
+    console.log(key + countryCodes[key]);
 }
+
+// result: order changes
