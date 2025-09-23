@@ -1,10 +1,14 @@
-// Crea un objeto car con una propiedad cuyo nombre venga de la variable feature = "hasAC" y valor true.
-
-let feature = "hasAC";
-
-let car = {
-    [feature]: true,
+function makeUser(name, age) {
+    return {
+        name: name,
+        age: age,
+    }
 }
+// =
 
-console.log(car.hasAC); // works
-console.log(car["hasAC"]); // works
+function makeUser2(name, age) {
+    return {
+        name,
+        age,
+    }
+}
