@@ -1,8 +1,7 @@
-let user = {
-    name: "John",
-    "likes birds": true,
-}
+let movie = {
+  title: "Matrix",
+};
 
-console.log(user.name); // works
-console.log(user.likes birds); // doesn't work
-console.log(user["likes birds"]); // works
+movie.year = 1999;
+
+delete movie.year;
