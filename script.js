@@ -1,9 +1,8 @@
 let user = {
-    name: "James",
-    "full name": "James Fret",
+    age: 30,
 }
 
-user.age = 32;
-user["second name"] = "Fret";
+let test = "age";
 
-console.log(user);
+console.log(user.test); // does not work
+console.log(user[test]); // does work
