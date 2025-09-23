@@ -1,8 +1,10 @@
-// Crea un objeto person con propiedades name: "Alice" y age: 25. Usa in para comprobar si existe la propiedad "name" y si existe "surname".
+// Crea un objeto phone = { brand: "Samsung", model: "S22" } y recórrelo con un for..in mostrando cada clave y su valor.
 
-const person = {
-    name: "Alice",
-    age: 25,
+const phone = {
+    brand: "Samsung",
+    model: "S22",
 }
 
-console.log("name" in person, "surname" in person);
+for (let key in phone) {
+    console.log(`${key}: ${phone[key]}`);
+}
