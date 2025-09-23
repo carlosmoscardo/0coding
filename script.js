@@ -1,11 +1,13 @@
-// Crea un objeto llamado car que tenga las propiedades brand, model, y un método start() que imprima “El coche está arrancando”.
-
-const car = {
-    brand: "Ferrari",
-    model: "F40",
-    start() {
-        console.log("El coche está arrancando");
-    }
+const person = {
+    name: {
+        first: "John",
+        last: "Smith",
+    },
+    age: 31,
 }
 
-car.start();
+const xyz = "age";
+
+console.log(person.name.first);
+console.log(person["name"]["first"]);
+console.log(person[xyz]);
