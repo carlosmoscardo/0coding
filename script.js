@@ -1,14 +1,8 @@
-function makeUser(name, age) {
-    return {
-        name: name,
-        age: age,
-    }
-}
-// =
+let firstName = "María";
 
-function makeUser2(name, age) {
-    return {
-        name,
-        age,
-    }
+let user = {
+    firstName,
+    age: 30,
 }
+
+console.log(user.firstName);
