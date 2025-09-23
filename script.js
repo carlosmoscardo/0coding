@@ -1,6 +1,4 @@
-let car = {
-    brand: "Toyota",
-    year: 2020,
+let book = {
+    title: "Example",
+    author: "James",
 }
-
-console.log(car.brand, car.year);
