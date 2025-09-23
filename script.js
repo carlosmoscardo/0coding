@@ -1,13 +1,11 @@
-const persona = {
-  name: {
-    first: "Ana",
-    last: "Martínez"
-  }
-};
+const saludar = function () {
+    console.log(`Hola! Soy ${this.name}`);
+}
 
-// Añade una propiedad nueva llamada "hobby" con el valor "pintar" al objeto anterior, usando una variable para el nombre de la propiedad.
-const ans = "hobby";
+const person = {
+    name: "Juan",
+    age: 22,
+    saludar,
+}
 
-persona[ans] = "pintar";
-
-console.log(persona.hobby);
+person.saludar();
