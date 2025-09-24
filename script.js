@@ -1,9 +1,11 @@
-function Person(name) { // las funciones constructoras se escriben en mayúscula
-    this.name = name;
-    this.introduceSelf = function () {
-        console.log(`Hi! I'm ${this.name}.`);
+// Crea una función constructora Animal que reciba species y tenga un método describe() que diga "Soy un [species]".
+
+function Animal(specie) {
+    this.species = specie;
+    this.describe = function () {
+        console.log(`Soy un ${this.species}`);
     }
 }
 
-const frankie = new Person("Frankie");
-frankie.introduceSelf();
+const tiger = new Animal("Tiger");
+tiger.describe();
