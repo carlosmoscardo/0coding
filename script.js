@@ -1,27 +1,16 @@
-/* 
-You have an array of user objects, each one has name, surname and id.
+let john = { name: "John", age: 25 };
+let pete = { name: "Pete", age: 30 };
+let mary = { name: "Mary", age: 28 };
 
-Write the code to create another array from it, of objects with id and fullName, where fullName is generated from name and surname.
-*/
+let arr = [ pete, john, mary ];
 
-let john = { name: "John", surname: "Smith", id: 1 };
-let pete = { name: "Pete", surname: "Hunt", id: 2 };
-let mary = { name: "Mary", surname: "Key", id: 3 };
+function sortByAge(arr) {
+    arr.sort((a, b) => a.age - b.age);
+}
 
-let users = [ john, pete, mary ];
+sortByAge(arr);
 
-let usersMapped = users.map(val => ({
-    fullName: `${val.name} ${val.surname}`,
-    id: val.id,
-}));
-
-/*
-usersMapped = [
-  { fullName: "John Smith", id: 1 },
-  { fullName: "Pete Hunt", id: 2 },
-  { fullName: "Mary Key", id: 3 }
-]
-*/
-
-alert( usersMapped[1].id ) // 1
-alert( usersMapped[1].fullName ) // John Smith
+// EXPECTED: [john, mary, pete]
+alert(arr[0].name); // John
+alert(arr[1].name); // Mary
+alert(arr[2].name); // Pete
