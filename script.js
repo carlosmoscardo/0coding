@@ -1,13 +1,23 @@
-let john = { name: "John", age: 25 };
-let pete = { name: "Pete", age: 30 };
-let mary = { name: "Mary", age: 29 };
+let users = [
+  {id: 'john', name: "John Smith", age: 20},
+  {id: 'ann', name: "Ann Smith", age: 24},
+  {id: 'pete', name: "Pete Peterson", age: 31},
+];
 
-let arr = [ john, pete, mary ];
+function groupById(users) {
+    return users.reduce((obj, val) => {
+        obj[val.id] = val;
+        return obj;
+    }, {});
+}
 
-function getAverageAge(arr) {
-    let avgAge = 0;
-    arr.map(val => avgAge += val.age);
-    return avgAge / 3;
-} 
+let usersById = groupById(users);
+/*
+// after the call we should have:
 
-alert( getAverageAge(arr) ); // (25 + 30 + 29) / 3 = 28
+usersById = {
+  john: {id: 'john', name: "John Smith", age: 20},
+  ann: {id: 'ann', name: "Ann Smith", age: 24},
+  pete: {id: 'pete', name: "Pete Peterson", age: 31},
+}
+*/
