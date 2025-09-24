@@ -1,16 +1,9 @@
-function createObjectPerson(name) {
-    const obj = {};
-    obj.name = name;
-    obj.introduceSelf = function () {
-        console.log(`Hey! I'm ${this.name}`);
-    };
-    return obj;
+function Person(name) { // las funciones constructoras se escriben en mayúscula
+    this.name = name;
+    this.introduceSelf = function () {
+        console.log(`Hi! I'm ${this.name}.`);
+    }
 }
 
-// Esta función devuelve {}
-
-const juan = createObjectPerson("Juan");
-const miguel = createObjectPerson("Miguel");
-
-juan.introduceSelf();
-miguel.introduceSelf();
+const frankie = new Person("Frankie");
+frankie.introduceSelf();
