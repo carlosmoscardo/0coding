@@ -1,11 +1,3 @@
-// Crea una función constructora Animal que reciba species y tenga un método describe() que diga "Soy un [species]".
+// Escribe un ejemplo usando el objeto Math para imprimir un número aleatorio entre 0 y 10.
 
-function Animal(specie) {
-    this.species = specie;
-    this.describe = function () {
-        console.log(`Soy un ${this.species}`);
-    }
-}
-
-const tiger = new Animal("Tiger");
-tiger.describe();
+console.log(Math.random() * 10);
