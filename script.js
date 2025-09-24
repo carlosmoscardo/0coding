@@ -1,11 +1,15 @@
-// Crea un nuevo objeto Notification con el mensaje "Curso terminado".
+// Data primitives
+let number = 1;
+let other = number;
 
-function Notification(type) {
-    this.display = function () {
-        console.log(type);
-    }
-}
+number = 2;
 
-const not1 = new Notification("Curso terminado");
+console.log(number, other); // 2, 1: Data primitives crean copias.
 
-not1.display();
+// Objects
+const obj = {data: 42};
+const test = obj;
+
+test.data = 43;
+
+console.log(obj.data, test.data); // 43, 43: Objects funcionan con referencias.
