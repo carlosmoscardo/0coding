@@ -1,16 +1,13 @@
 let john = { name: "John", age: 25 };
 let pete = { name: "Pete", age: 30 };
-let mary = { name: "Mary", age: 28 };
+let mary = { name: "Mary", age: 29 };
 
-let arr = [ pete, john, mary ];
+let arr = [ john, pete, mary ];
 
-function sortByAge(arr) {
-    arr.sort((a, b) => a.age - b.age);
-}
+function getAverageAge(arr) {
+    let avgAge = 0;
+    arr.map(val => avgAge += val.age);
+    return avgAge / 3;
+} 
 
-sortByAge(arr);
-
-// EXPECTED: [john, mary, pete]
-alert(arr[0].name); // John
-alert(arr[1].name); // Mary
-alert(arr[2].name); // Pete
+alert( getAverageAge(arr) ); // (25 + 30 + 29) / 3 = 28
