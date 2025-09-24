@@ -1,15 +1,11 @@
-// Data primitives
-let number = 1;
-let other = number;
+let john = { name: "John", age: 25 };
+let pete = { name: "Pete", age: 30 };
+let mary = { name: "Mary", age: 28 };
 
-number = 2;
+let users = [ john, pete, mary ];
 
-console.log(number, other); // 2, 1: Data primitives crean copias.
+let names = users.map(val => {
+    return val.name;
+})
 
-// Objects
-const obj = {data: 42};
-const test = obj;
-
-test.data = 43;
-
-console.log(obj.data, test.data); // 43, 43: Objects funcionan con referencias.
+alert( names ); // John, Pete, Mary
