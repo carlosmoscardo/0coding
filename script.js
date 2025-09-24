@@ -1,11 +1,27 @@
-let john = { name: "John", age: 25 };
-let pete = { name: "Pete", age: 30 };
-let mary = { name: "Mary", age: 28 };
+/* 
+You have an array of user objects, each one has name, surname and id.
+
+Write the code to create another array from it, of objects with id and fullName, where fullName is generated from name and surname.
+*/
+
+let john = { name: "John", surname: "Smith", id: 1 };
+let pete = { name: "Pete", surname: "Hunt", id: 2 };
+let mary = { name: "Mary", surname: "Key", id: 3 };
 
 let users = [ john, pete, mary ];
 
-let names = users.map(val => {
-    return val.name;
-})
+let usersMapped = users.map(val => ({
+    fullName: `${val.name} ${val.surname}`,
+    id: val.id,
+}));
 
-alert( names ); // John, Pete, Mary
+/*
+usersMapped = [
+  { fullName: "John Smith", id: 1 },
+  { fullName: "Pete Hunt", id: 2 },
+  { fullName: "Mary Key", id: 3 }
+]
+*/
+
+alert( usersMapped[1].id ) // 1
+alert( usersMapped[1].fullName ) // John Smith
