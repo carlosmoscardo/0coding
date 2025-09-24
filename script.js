@@ -1,3 +1,11 @@
-// Escribe un ejemplo usando el objeto Math para imprimir un número aleatorio entre 0 y 10.
+// Crea un nuevo objeto Notification con el mensaje "Curso terminado".
 
-console.log(Math.random() * 10);
+function Notification(type) {
+    this.display = function () {
+        console.log(type);
+    }
+}
+
+const not1 = new Notification("Curso terminado");
+
+not1.display();
