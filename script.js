@@ -1,11 +1,16 @@
-const saludar = function () {
-    console.log(`Hola! Soy ${this.name}`);
+function createObjectPerson(name) {
+    const obj = {};
+    obj.name = name;
+    obj.introduceSelf = function () {
+        console.log(`Hey! I'm ${this.name}`);
+    };
+    return obj;
 }
 
-const person = {
-    name: "Juan",
-    age: 22,
-    saludar,
-}
+// Esta función devuelve {}
 
-person.saludar();
+const juan = createObjectPerson("Juan");
+const miguel = createObjectPerson("Miguel");
+
+juan.introduceSelf();
+miguel.introduceSelf();
