@@ -1,15 +1,13 @@
-let arr = [1, 2, 3];
-
-function shuffle(arr) {
-    arr.sort(() => Math.random() - 0.5)
+function unique(arr) {
+    let newArr = [];
+    for (let i = 0; i < arr.length; i++) {
+        if (!newArr.includes(arr[i])) {
+            newArr.push(arr[i]);
+        }
+    }
+    return newArr;
 }
 
-shuffle(arr);
-// arr = [3, 2, 1]
+let strings = ["Hare", "Krishna", "Hare", "Krishna", "Krishna", "Krishna", "Hare", "Hare", ":-O"];
 
-shuffle(arr);
-// arr = [2, 1, 3]
-
-shuffle(arr);
-// arr = [3, 1, 2]
-// ...
+console.log( unique(strings) ); // Hare, Krishna, :-O
