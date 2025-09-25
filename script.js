@@ -1,11 +1,11 @@
-let arr = [5, 2, 1, -10, 8];
+let arr = ["HTML", "JavaScript", "CSS"];
 
-function sortArr(arr) {
-    arr.sort((a, b) => b - a);
+function copySorted(arr) {
+    let sorted = arr.slice().sort();
+    return sorted;
 }
 
-sortArr(arr);
+let sorted = copySorted(arr);
 
-// ... your code to sort it in decreasing order
-
-console.log(( arr )); // 8, 5, 2, 1, -10
+console.log( sorted ); // CSS, HTML, JavaScript
+console.log( arr ); // HTML, JavaScript, CSS (no changes)
