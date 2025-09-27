@@ -1,34 +1,35 @@
-/* table {
-    border-collapse: collapse;
+html {
+  font-family: sans-serif;
 }
-
-th, td {
-    border: 1px solid black;
-    padding: 0.5rem;
-    text-align: left;
-} */
 
 table {
   border-collapse: collapse;
-  table-layout: fixed;
-  border: 2px solid black;
-  margin-bottom: 20px;
+  border: 2px solid rgb(200,200,200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+}
+
+th {
+  background-color: rgb(235,235,235);
 }
 
 td {
-  border: 1px solid gray;
-  height: 50px;
   text-align: center;
 }
 
-.tabla-estrecha {
-  width: 100px;
+tr:nth-child(even) td {
+  background-color: rgb(250,250,250);
 }
 
-.tabla-normal {
-  width: 200px;
+tr:nth-child(odd) td {
+  background-color: rgb(245,245,245);
 }
 
-.tabla-amplia {
-  width: 10000px; /* Intenta esto y observa cómo responde el navegador */
+caption {
+  padding: 10px;
 }
