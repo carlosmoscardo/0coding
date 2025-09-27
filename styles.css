@@ -1,4 +1,4 @@
-table {
+/* table {
     border-collapse: collapse;
 }
 
@@ -6,4 +6,18 @@ th, td {
     border: 1px solid black;
     padding: 0.5rem;
     text-align: left;
+} */
+
+body {
+  background: #ccc;
+}
+.wrap {
+  width: 300px;
+  margin: 0 auto;
+  background: white;
+  outline: 1px solid blue;
+}
+table {
+  outline: 1px solid red;
+  margin: 5px 0;
 }
