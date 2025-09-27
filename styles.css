@@ -8,22 +8,27 @@ th, td {
     text-align: left;
 } */
 
-body {
-  background: #ccc;
-}
-.wrap {
-  width: 300px;
-  margin: 0 auto;
-  background: white;
-}
 table {
-  border: 1px solid red;
-  margin: 5px 0;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border: 2px solid black;
+  margin-bottom: 20px;
 }
-.nowrap {
-  white-space: nowrap;
+
+td {
+  border: 1px solid gray;
+  height: 50px;
+  text-align: center;
 }
-.many-cells td {
-  padding: 5px;
-  border: 1px solid green;
+
+.tabla-estrecha {
+  width: 100px;
+}
+
+.tabla-normal {
+  width: 200px;
+}
+
+.tabla-amplia {
+  width: 10000px; /* Intenta esto y observa cómo responde el navegador */
 }
