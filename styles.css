@@ -15,9 +15,15 @@ body {
   width: 300px;
   margin: 0 auto;
   background: white;
-  outline: 1px solid blue;
 }
 table {
-  outline: 1px solid red;
+  border: 1px solid red;
   margin: 5px 0;
+}
+.nowrap {
+  white-space: nowrap;
+}
+.many-cells td {
+  padding: 5px;
+  border: 1px solid green;
 }
