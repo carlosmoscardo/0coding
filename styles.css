@@ -1,9 +1,15 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 h1 {
-    font-style: italic;
+  font-family: 'COUTUREBold';
+  margin: 0;
+  font-size: 38px;
 }
 
+.wide {
+  font-size: 24px;
+  letter-spacing: 0.5em;
+}
 
+.narrow {
+  font-size: 48px;
+  letter-spacing: -0.1em;
+}
