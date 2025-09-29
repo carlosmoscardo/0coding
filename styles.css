@@ -1,0 +1,9 @@
+.box {
+  width: 50vw;
+  height: 50vh;
+  /* padding: 2vmin; */
+  font-size: 2vmax;
+  background-color: lightblue;
+  text-align: center;
+  border: 2px solid navy;
+}
