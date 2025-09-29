@@ -1,8 +1,0 @@
-@font-face {
-    font-family: example;
-    src: url(./fonts/RobotoCondensed-VariableFont_wght.ttf);
-}
-
-div {
-    font-family: example, "Times New Roman";
-}
