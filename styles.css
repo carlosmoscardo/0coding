@@ -1,4 +1,8 @@
 p {
-    text-decoration: underline;
-    text-shadow: 2px 2px 0 red, 4px 4px 0 green, 6px 6px 0 blue;
+    text-shadow:
+        1px 1px 2px black,
+        0 0 1em blue,
+        0 0 0.2em blue;
+    color: white;
+    font: 1.5em Georgia, serif;
 }
