@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Alan Sans';
-    src: url('AlanSans-Light.woff2') format('woff2'),
-        url('AlanSans-Light.woff') format('woff');
+    src: url('./fonts/AlanSans-Light.woff2') format('woff2'),
+        url('./fonts/AlanSans-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'DM Sans 9pt';
-    src: url('DMSans-9ptRegular.woff2') format('woff2'),
-        url('DMSans-9ptRegular.woff') format('woff');
+    src: url('./fonts/DMSans-9ptRegular.woff2') format('woff2'),
+        url('./fonts/DMSans-9ptRegular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
