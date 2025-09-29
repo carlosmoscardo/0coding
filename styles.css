@@ -6,3 +6,8 @@
     width: 30%;
     border: 2px solid red;
 }
+
+p {
+    color: white;
+    background-color: blueviolet;
+}
