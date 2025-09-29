@@ -1,4 +1,4 @@
 p {
     text-decoration: underline;
-    text-shadow: 2px 2px 2px red, -2px -2px 2px blue;
+    text-shadow: 2px 2px 0 red, 4px 4px 0 green, 6px 6px 0 blue;
 }
