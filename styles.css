@@ -1,5 +1,8 @@
+@font-face {
+    font-family: example;
+    src: url(./fonts/RobotoCondensed-VariableFont_wght.ttf);
+}
+
 div {
-  font-family: "Press Start 2P", system-ui;
-  font-weight: 400;
-  font-style: normal;
+    font-family: example, "Times New Roman";
 }
