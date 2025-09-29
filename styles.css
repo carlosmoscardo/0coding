@@ -1,0 +1,8 @@
+#test {
+    outline: 2px solid red;
+}
+
+.caja {
+    width: 30%;
+    border: 2px solid red;
+}
