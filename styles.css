@@ -1,15 +1,13 @@
-div {
-    font-size: 20px;
+html {
+  font-size: 20px; /* o no pongas nada y deja el valor por defecto */
 }
 
-p {
-    font-size: 1.2em;
+.px-btn {
+  font-size: 16px;
+  padding: 10px 20px;
 }
 
-span {
-    font-size: 1.2em;
-}
-
-strong {
-    font-size: 1.2em;
+.rem-btn {
+  font-size: 1rem;
+  padding: 0.625rem 1.25rem; /* equivalente a 10px y 20px si 1rem = 16px */
 }
