@@ -1,5 +1,6 @@
 p {
-    border-width: 2px 4px 1px 3px;
-    border-style: solid dashed dotted double;
-    border-color: red blue green black;
+    border-inline-start: 3px solid green;
+    border-inline-end: 3px solid rgb(220, 200, 49);
+    border-block-start: 3px solid red;
+    border-block-end: 3px solid blue;
 }
