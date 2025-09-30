@@ -3,5 +3,5 @@
   height: 500px;
   padding: 20px;
   font-family: sans-serif;
-  background-image: linear-gradient(to right, red, blue)
+  background-image: radial-gradient(circle, yellow, green)
 }
