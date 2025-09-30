@@ -1,5 +1,3 @@
 p {
-    border-width: thick;
-    border-style: dotted;
-    border-color: blue;
+    border: red 2px solid;
 }
