@@ -1,8 +1,9 @@
 .caja {
-  width: 400px;
-  height: 300px;
+  width: 600px;
+  height: 400px;
   background-color: lightgray;
   padding: 20px;
   font-family: sans-serif;
   background-image: url("https://www.animetiontalk.com/wp-content/uploads/2023/08/Kakashi-vs-Gojo-5.jpg");
+  background-repeat: no-repeat;
 }
