@@ -1,3 +1,5 @@
 p {
-    border: medium dashed green;
+    border-width: thick;
+    border-style: dotted;
+    border-color: blue;
 }
