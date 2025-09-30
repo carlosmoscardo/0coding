@@ -1,6 +1,5 @@
 p {
-    border-top: 2px solid red;
-    border-bottom: thick dotted green;
-    border-left: thin dashed black;
-    border-right: 4px solid brown;
+    border-width: 2px 4px 1px 3px;
+    border-style: solid dashed dotted double;
+    border-color: red blue green black;
 }
