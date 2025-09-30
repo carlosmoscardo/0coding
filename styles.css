@@ -3,5 +3,5 @@ div {
     height: 150px;
     font-size: 30px;
     background-color: cyan;
-    box-shadow: 10px 5px 5px 30px gold inset;
+    box-shadow: 10px 10px 5px gold, 20px 20px 5px 20px silver;
 }
