@@ -4,7 +4,12 @@
   padding: 20px;
   font-family: sans-serif;
   background:
+    url("https://i.pinimg.com/736x/75/f0/f6/75f0f6b7dd94dbd496b5a49f7c534862.jpg")
+    left 10% / contain
+    repeat-x
+    cyan;
+  /* background:
     right top no-repeat url("https://www.animetiontalk.com/wp-content/uploads/2023/08/Kakashi-vs-Gojo-5.jpg"),
     no-repeat url("https://i.pinimg.com/736x/75/f0/f6/75f0f6b7dd94dbd496b5a49f7c534862.jpg"),
-    lightblue;
+    lightblue; */
 }
