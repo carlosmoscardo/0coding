@@ -1,4 +1,4 @@
 p {
-    border-radius: 50%;
+    border-radius: 1em / 5em;
     border: solid red;
 }
