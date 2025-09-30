@@ -6,6 +6,6 @@
   font-family: sans-serif;
   background-image: url("https://www.animetiontalk.com/wp-content/uploads/2023/08/Kakashi-vs-Gojo-5.jpg");
   background-repeat: no-repeat;
-  background-position: 25% 25%;
-  background-origin: padding-box;
+  background-size: cover;
+  background-clip: border-box;
 }
