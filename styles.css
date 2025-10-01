@@ -1,6 +1,10 @@
-h2 {
-    color: tomato;
-    + p {
-        color: blue;
+.notice {
+    border: 2px solid black;
+    padding: 1rem;
+    background-color: #ffc107;
+
+    &.warning {
+        background-color: #d81b60;
+        color: white;
     }
 }
