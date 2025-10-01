@@ -5,3 +5,11 @@
 .contenedor > p {
     color: blue;
 }
+
+p + span {
+    color: green;
+}
+
+p ~ span {
+    color: orange;
+}
