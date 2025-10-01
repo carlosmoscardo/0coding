@@ -1,6 +1,6 @@
 h2 {
-    color: red;
-    & + p {
+    color: tomato;
+    + p {
         color: blue;
     }
 }
