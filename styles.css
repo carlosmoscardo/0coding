@@ -1,15 +1,23 @@
-.contenedor p {
-    color: red;
-}
+/* .menu {
+    & .item {
+        color: red;
+    }
+} */
 
-.contenedor > p {
-    color: blue;
-}
+/* .menu {
+    & > .item {
+        color: blue;
+    }
+} */
 
-p + span {
-    color: green;
-}
+/* .item {
+    & + .extra {
+        color: orange;
+    }
+} */
 
-p ~ span {
-    color: orange;
+.item {
+    & ~ .extra {
+        color: yellow;
+    }
 }
