@@ -4,21 +4,20 @@ body {
 }
 
 p {
-    margin: 100px;
+    margin: 50px;
 }
 
 .contenedor {   
   width: 400px;
-  height: 3000px;
+  height: 600px;
   background: lightblue;
   padding: 10px;
   outline: 2px solid blue;
-  /* position: relative; */
 }
 
 .boton-sticky {
   position: sticky;
-  bottom: 2.26px;
+  bottom: 20px;
   background: coral;
   color: white;
   font-weight: bold;
@@ -26,4 +25,3 @@ p {
   text-align: center;
   outline: 2px solid black;
 }
-
