@@ -3,19 +3,27 @@ body {
   margin: 20px;
 }
 
+p {
+    margin: 100px;
+}
+
 .contenedor {   
   width: 400px;
+  height: 3000px;
   background: lightblue;
   padding: 10px;
   outline: 2px solid blue;
+  /* position: relative; */
 }
 
-.caja-prueba { /* checkpoint: no sube más allá del borde superior */
+.boton-sticky {
   position: sticky;
-  top: 0px;
+  bottom: 2.26px;
   background: coral;
   color: white;
   font-weight: bold;
   padding: 10px;
+  text-align: center;
   outline: 2px solid black;
 }
+
