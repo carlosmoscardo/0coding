@@ -1,0 +1,30 @@
+.card-container {
+  position: relative;
+  width: 100%;
+  outline: 2px solid red;
+}
+
+.card-image {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  outline: 2px solid rgb(0, 128, 255);
+}
+
+.card-body {
+  position: absolute;
+  width: 100%;
+  background: black;
+  opacity: 0.6;
+  color: white;
+  top: 8rem;
+  text-align: center;
+  font-size: 1.2em;
+  font-family: Arial;
+  outline: 2px solid green;
+}
+
+.card-heading {
+  position: absolute;
+  outline: 2px solid orange;
+}
