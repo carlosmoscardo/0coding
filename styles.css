@@ -1,30 +1,28 @@
-.card-container {
-  position: relative;
-  width: 100%;
-  outline: 2px solid red;
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
 }
 
-.card-image {
-  position: absolute;
-  width: 100%;
-  z-index: -1;
-  outline: 2px solid rgb(0, 128, 255);
+.contenedor {             /* contenedor de base */
+  position: relative;   
+  width: 400px;
+  height: 200px;
+  background: lightblue;
+  padding: 10px;
+  outline: 2px solid blue;
 }
 
-.card-body {
+.caja-absolute {          /* se saca del flujo */
   position: absolute;
-  width: 100%;
-  background: black;
-  opacity: 0.6;
+  top: 0px;
+  left: 0px;
+  width: 150px;
+  height: 100px;
+  background: coral;
   color: white;
-  top: 8rem;
-  text-align: center;
-  font-size: 1.2em;
-  font-family: Arial;
-  outline: 2px solid green;
-}
-
-.card-heading {
-  position: absolute;
-  outline: 2px solid orange;
+  font-weight: bold;
+  outline: 2px solid rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
