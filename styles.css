@@ -3,25 +3,23 @@ body {
   margin: 20px;
 }
 
-.contenedor {             /* contenedor de base */
+.contenedor {
   position: relative;   
   width: 400px;
-  height: 200px;
   background: lightblue;
   padding: 10px;
   outline: 2px solid blue;
 }
 
-.caja-absolute {          /* se saca del flujo */
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 150px;
+.caja-prueba {
+  position: relative;
+  top: 100px;
+  width: 300px;
   height: 100px;
   background: coral;
   color: white;
   font-weight: bold;
-  outline: 2px solid rgb(0, 0, 0);
+  outline: 2px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
