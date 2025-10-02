@@ -1,27 +1,6 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-}
-
-p {
-    margin: 50px;
-}
-
-.contenedor {   
-  width: 400px;
-  height: 600px;
-  background: lightblue;
-  padding: 10px;
-  outline: 2px solid blue;
-}
-
-.boton-sticky {
+dt {
   position: sticky;
-  bottom: 20px;
-  background: coral;
+  top: -1px;
+  background: #b8c1c8;
   color: white;
-  font-weight: bold;
-  padding: 10px;
-  text-align: center;
-  outline: 2px solid black;
 }
