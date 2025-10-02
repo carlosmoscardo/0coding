@@ -3,25 +3,19 @@ body {
   margin: 20px;
 }
 
-.contenedor {
-  position: relative;   
+.contenedor {   
   width: 400px;
   background: lightblue;
   padding: 10px;
   outline: 2px solid blue;
 }
 
-.caja-prueba {
-  position: fixed;
+.caja-prueba { /* checkpoint: no sube más allá del borde superior */
+  position: sticky;
   top: 0px;
-  left: 0px;
-  width: 300px;
-  height: 100px;
   background: coral;
   color: white;
   font-weight: bold;
+  padding: 10px;
   outline: 2px solid black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
