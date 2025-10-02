@@ -1,19 +1,4 @@
-body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: #222;
-    color: white;
-    font-family: sans-serif;
-}
-
-p {
-    background: #444;
-    padding: 1rem;
-    border-radius: 8px;
-
-    /* 👇 aquí probamos max() */
-    font-size: max(16px, 2vw);
+h1 {
+    background: lightblue;
+    font-size: clamp(20px, 10vw, 120px);
 }
