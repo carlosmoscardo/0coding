@@ -1,11 +1,14 @@
-let arr = ["HTML", "JavaScript", "CSS"];
+let arr = [1, 2, 3];
 
-function copySorted(arr) {
-    let newArr = arr.slice(0);
-    return newArr.sort();
+function shuffle(array) {
+    array.sort(() => Math.random() - 0.5);
 }
 
-let sorted = copySorted(arr);
-
-console.log(arr); // HTML, JavaScript, CSS (no changes)
-console.log(sorted); // CSS, HTML, JavaScript
+shuffle(arr);
+console.log(arr);
+shuffle(arr);
+console.log(arr);
+shuffle(arr);
+console.log(arr);
+shuffle(arr);
+console.log(arr);
