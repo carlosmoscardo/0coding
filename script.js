@@ -1,16 +1,14 @@
-function camelize(str) {
-    const arr = str.split("-");
-    const newArr = arr.map((val, idx) => idx === 0 ? val : val[0].toUpperCase() + val.slice(1));
-    const final = newArr.join("");
-    return final;
+let arr = [5, 3, 8, 1];
+
+function filterRangeInPlace(arr, a, b) {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] < a  || arr[i] > b) {
+            arr.splice(i, 1);
+            i--;
+        }
+    }
 }
 
-console.log(camelize("background-color"));
-console.log(camelize("list-style-image"));
-console.log(camelize("-webkit-transition"));
+filterRangeInPlace(arr, 1, 4); // removed the numbers except from 1 to 4
 
-camelize("background-color") == 'backgroundColor';
-camelize("list-style-image") == 'listStyleImage';
-camelize("-webkit-transition") == 'WebkitTransition';
-
-
+console.log(arr); // [3, 1]
