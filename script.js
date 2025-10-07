@@ -1,3 +1,5 @@
 const btn = document.querySelector("button");
-
-btn.focus();
+const input2 = document.querySelector("#campo2");
+btn.addEventListener("click", () => {
+    input2.focus();
+});
